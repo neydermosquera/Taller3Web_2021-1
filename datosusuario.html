@@ -12,7 +12,7 @@
             <label for = "nombres"><strong>Nombres</strong></laber><br>
             <input type = "text" id = "nombres" name = "nombres" placeholder = "por ejemplo: Fabian"><br>
             <label for = "apellidos"><strong>Apellidos</strong></laber><br>
-            <input type = "text" id = "apellidos" name = "apellidos" placeholder = "por ejemplo: Mosquera"><br>
+            <input type = "text" id = "apellidos" name = "apellidos" placeholder = "por ejemplo: Romero"><br>
             <label for = "contraseña"><strong>Contraseña</strong></laber><br>
             <input type = "password" id = "contraseña" name = "contraseña"><br>
             <label for = "Confirmar contraseña"><strong>Confirmar contraseña</strong></laber><br>
@@ -22,11 +22,11 @@
                 <option>T.I</option>
                 <option>C.C</option>
                 <option>C.E</option>
-            </select> <input type = "text" id = "numeroidentificacion" name = "numeroidentificacion"><br>
+            </select> <input type = "number" id = "numeroidentificacion" name = "numeroidentificacion"><br>
             <label for = "sexo"><strong>Sexo</strong></laber><br>
-            <input type = "radio" name = "Mujer" value="1">Mujer<br>
-            <input type = "radio" name = "Hombre" value="2">Hombre<br>
-            <input type = "radio" name = "Otro" value="3">Otro<br>
+            <input type = "radio" name = "checkbox" value="1">Mujer<br>
+            <input type = "radio" name = "checkbox" value="2">Hombre<br>
+            <input type = "radio" name = "checkbox" value="3">Otro<br>
 
             <label for = "foto"><strong>Inlucir mi foto</strong></label><br>
             <input type = "file" name = "archivosubido"><br><br>
@@ -73,7 +73,7 @@
                     <option>Vichada</option>
                 </select><br><br>
                 <label for = "Fechanacimiento"><strong>Fecha de nacimiento</strong></label><br>
-                <input type = "text" name = "dia" size = "5"><label for ="mes"><strong>  de  </strong><select>
+                <input type = "number" name = "dia" style="width : 100px"><label for ="mes"><strong>  de  </strong><select>
                     <option>Enero</option>
                     <option>Febrero</option>
                     <option>Marzo</option>
@@ -87,7 +87,7 @@
                     <option>Noviembre</option>
                     <option>Diciembre</option>
 
-                </select><strong>  de  </strong><input type = "text" name = "agno" size = "5"><br>
+                </select><strong>  de  </strong><input type = "number" name = "agno" style="width : 100px"><br>
 
                 <label for = "Temainteres">Temas de interés</label><br>
                 <select name = "temas" size = "5" multiple>
@@ -101,7 +101,7 @@
                     <option>Desarrollo de Software</option>
                 </select>
             </fieldset>
-            <input type = "submit" value = "Guardar cambios"> <input type = "reset" value = "Borrar datos introducidos"> <input type="button" onclick="history.back()" name="Volver" value="volver">
+            <input type = "submit" value = "Guardar cambios"> <input type = "reset" value = "Borrar datos introducidos"> <input type="button" onclick="history.back()" name="Volver" value="Volver">
 
 
 
